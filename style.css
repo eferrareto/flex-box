@@ -11,6 +11,7 @@ div{
     flex-wrap: wrap;
     width: 60vw;
     margin: auto;
+    justify-content: center;
 }
 .red{
     background-color: red;
