@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+div{
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: auto;
+}
+.red{
+    background-color: red;
+    
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.red, .blue, .black{
+    text-align: center;
+    color: #ffff;
+}
