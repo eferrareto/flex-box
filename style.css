@@ -1,29 +1,15 @@
-h1{
-    text-align: center;
+.flex-conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+
 }
 div{
-    margin: 5px;
-    height: 150px;
-    width: 150px;
-}
-.flex-box{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60vw;
-    margin: auto;
-    justify-content: center;
-}
-.red{
-    background-color: red;
-    
-}
-.blue{
-    background-color: blue;
-}
-.black{
     background-color: black;
-}
-.red, .blue, .black{
-    text-align: center;
     color: #ffff;
+    width: 300px;
+}
+.flex-item{
+
 }
