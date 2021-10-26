@@ -1,15 +1,30 @@
+body{
+    background-color: #67296b7c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
 .flex-conteiner{
+    height: auto;
+    background-color: rgba(165, 1, 165, 0.877);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: flex-end;
-
 }
 div{
-    background-color: black;
-    color: #ffff;
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px;
+    flex-grow: 1;
+    background-color: #fff;
+    color: rgba(146, 1, 146, 0.897);
+
     width: 300px;
+    height: 200px;
+}
+div:hover{
+    flex-grow: 3;
 }
 .flex-item{
-
+    width: 850px;
 }
