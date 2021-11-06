@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        body{
+            background-color: rgba(204, 93, 81, 0.692);
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            text-align: center;
+        }
+        .container{
+            border: 1px solid  black;
+            max-width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            font-weight: bolder;
+            background-color: red;
+            margin: 15px;
+            font-size: 1.em;
+            padding: 10px;
+            max-width: 10px;
+        }
+        .column{
+            border: 1px solid  black;
+            max-width: 500px;
+            max-height: 350px;
+            display: flex;
+            flex-direction: column;
+        }
+        .justify-content{
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+        }
+        .justify-content-end{
+            border: 1px solid black;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .justify-content-space-between{
+            display: flex;
+            border: 1px solid black;
+            justify-content: space-between;
+        }
+        .align-items{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Display: Flex</h2>
+    <p>Normal row nowrap</p>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>Normal column</p>
+    <div class="column">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>Normal row wrap</p>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+    </div>
+    
+    <p>Justify Content / Center</p>
+    <div class="justify-content">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>Justify Content / Flex-end</p>
+    <div class="justify-content-end">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>Justify Content / Space-Between</p>
+    <div class="justify-content-space-between">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>Column / Align-items</p>
+    <div class="align-items">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>
